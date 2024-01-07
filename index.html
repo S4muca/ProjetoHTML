@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Vila de Gáfete</title>
+</head>
+<body>
+    <nav>
+        <a href="#">Vila de Gáfete</a>
+        <ul>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#imagem">Fotos</a></li>
+            <li><a href="#Contato">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="Topo">
+        <h1>Vila de Gáfete</h1>
+        <p>Uma Vila cheia de adolescentes</p>
+        <a href="#Sobre" class="botao"> Ver mais</a>
+    </header>
+
+    <section id="Sobre">
+        <h2>Sobre</h2>
+        <p>informações sobre a vila</p>
+        <a href="#Contato" class="contactocor">Contacto</a>
+    </section>
+
+    <style>
+        table {
+            width: 100%;
+            padding: 10px;
+            margin: auto;
+            border-color: black; 
+            background-color: #191970;
+            margin-top: 30px;
+            border-spacing: 5px;
+        }
+
+        .class:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        .imgg {
+            height: auto;
+            display: block;
+            justify-content: center;
+        }
+
+        .imggs {
+            max-width: 300px;
+            max-height: 300px;
+            height: auto;
+            display: block;
+        }       
+
+        .fotoredo{
+            border-bottom: 4px solid #0000FF;
+            border-left: 3px solid #808080;
+            border-right: 3px solid #808080;
+            border-top: 3px solid #808080;
+            border-radius: 20px;
+            margin-top: 5px;
+        }
+    </style>
+    
+    <table border="2" width="90%" class="cordofundo">
+        <h2 style="text-align: center;">Monumentos</h2>
+        <tr align="center" class="titulomonumentos">
+            <td bgcolor="white">Imagem</td><td bgcolor="white">Conteudo</td><td bgcolor="white">Localização</td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="white"><img class="fotoredo" src="imagens/Igreja.jpg"  alt="Igreja" width="400px" height="400px"></td>
+            <td bgcolor="white"><a class="class" href="igreja.html">Conteudo sobre o Monumento</a>
+            </td>
+            <td bgcolor="white"><iframe width="400px" height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.33635927643886!2d-7.684507907047326!3d39.41066705120653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd17f345aa0f86a5%3A0x2ec6b445a7c59985!2sIgreja%20Matriz%20de%20G%C3%A1fete!5e1!3m2!1spt-PT!2spt!4v1704552366881!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="white"><img class="fotoredo" src="imagens/Sao marcos.jpg" alt="Marcos" width="400px" height="400px"></td>
+            <td bgcolor="white"><a class="class" href="saomarcos.html">Conteudo sobre o Monumento</a></td>
+            <td bgcolor="white"><iframe width="400px" height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.33706871888816!2d-7.671305242081032!3d39.410463764351675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd17f339f4dc7231%3A0x57a7ccf4c140c5fe!2sErmida%20De%20S.Marcos!5e1!3m2!1spt-PT!2spt!4v1704552439158!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+        <tr align="center">
+            <td bgcolor="white"><img class="fotoredo" src="imagens/Capela J.jpg" alt="Capela" width="400px" height="400px"></td>
+            <td bgcolor="white"><a class="class" href="capela.html">Conteudo sobre o Monumetno</a></td>
+            <td bgcolor="white"><iframe width="400px" height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.6652404327051!2d-7.683256425238814!3d39.41173844392746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd17f34447d18321%3A0xbafa0ca7900560cc!2sCapela%20do%20Esp%C3%ADrito%20Santo!5e1!3m2!1spt-PT!2spt!4v1704552552063!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
+        </tr>
+    </table>
+
+<div class="center">
+    <section id="Contato">
+        <h2>Contacto</h2>
+        <p>Venha falar conoosco</p>
+
+        <div>
+            <img src="imagens/tel.png" alt="telefone">
+            <p><a href=tel:245990116> 245 990 116</a></p>
+        </div>
+
+        <div>
+            <img src="imagens/mail.png" alt="email">
+            <p><a href="mailto:gip@cm-crato.pt"> GIP@CM-CRATO.PT </a></p>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#Topo">Voltar</a>
+        <p>Desenvolvido por Samuel Ventura e Rodrigo Ricardo</p>
+    </footer>
+</div>
+</body>
+</html>
